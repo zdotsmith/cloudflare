@@ -1,0 +1,8 @@
+/* --- Your actual rules (keep them here too) --- */
+#hero {
+    min-height: auto !important; /* Fix for 100vh issue */
+}
+
+#hero .hero-bottom-svg {
+    bottom: 0 !important; /* Fix for -50px issue */
+}
